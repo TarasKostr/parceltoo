@@ -2,11 +2,9 @@
   "name": "parceltoo",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "npx parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /parceltoo/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,9 +16,5 @@
   "bugs": {
     "url": "https://github.com/TarasKostr/parceltoo/issues"
   },
-  "homepage": "https://github.com/TarasKostr/parceltoo#readme",
-  "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "parcel": "^2.16.0"
-  }
+  "homepage": "https://github.com/TarasKostr/parceltoo#readme"
 }

@@ -1,1 +1,1 @@
-console.log("hehe");
+console.log(add(51, 49));
